@@ -37,20 +37,3 @@ header{
     color: black;
     font-size: 15px;
 }
-
-.pages a::after{
-    content: '';
-    display: block;
-    height: 1px;
-    width: 100%;
-    background-color: black;
-}
-
-.pages a::after:hover{
-    content: '';
-    display: block;
-    height: 1px;
-    width: 0%;
-    background-color: black;
-    transition: all 0.2s;
-}
